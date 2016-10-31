@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family:"微软雅黑";}
+ul{padding:0px;}
+img{display:block}
+body{margin:0px;padding:0px;background:white;}
+.clearfix{clear:both}
+.nav_bg{background:white;position:fixed;z-index:1;width:100%;top:0px;}
+.nav{max-width:1150px;margin:0 auto;}
+.nav .logo{float:left;height:39px;padding:11px 10px;}
+.nav ul{margin:0px 0px 0px 220px;}
+.nav ul li{list-style:none;padding:22px 20px;float:left;}
+.nav a{text-decoration:none;color:black;}
+.nav a:hover{color:#ff5800;}
+.nav .sign_up{width:100px;height:32px;background:#ff5800;color:white;line-height:32px;text-align:center;float:right;margin-top:17px;}
+@media(max-width:1150px){.nav .sign_up{display:none;}.nav ul{margin-right:0px;}}

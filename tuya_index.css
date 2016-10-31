@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+img{display:block}
+.banner{position:relative;max-width:1920px;height:500px;margin-top:65px;}
+.banner div{width:100%;position:absolute;}
+.banner .images1{background:url(images/banner/1.png) no-repeat center center;height:500px;}
+.banner .images2{background:url(images/banner/2.jpg) no-repeat center center;height:500px;}
+.banner .images3{background:url(images/banner/3.jpg) no-repeat center center;height:500px;}
+.banner .images4{background:url(images/banner/4.jpg) no-repeat center center;height:500px;}
+.banner ul{padding:0px;position:absolute;left:50%;top:430px;margin-left:-152px;}
+.banner ul a{display:block;height:30px;float:left;padding-top:15px;}
+.banner li{width:60px;height:2px;background:rgba(195,195,195,0.3);margin:0 8px;list-style:none;}
+.banner .current{background:white;}
+.content_box {width:1150px;margin:0 auto;border-top:1px solid #BBBBBB;position:relative;margin-top:70px;}
+.content_box .spl{width:1150px;height:650px;overflow:hidden;position:relative;}
+.special{width:5860px;height:650px;position:relative;}
+.special .box_out{width:1170px;height:630px;background:white;float:left;}
+.special .box_out div{float:left;width:32%;height:305px;background:#f7f7f7;position:relative;margin-right:15px;margin-bottom:15px;}
+.special .box_out div img{position:absolute;bottom:0px;right:20px;}
+.special .box_out div p{font-size:25px;color:#424242;width:130px;margin:40px auto;text-align:center;}
+.content_box .arrow_l{position:absolute;top:29.9%;left:-60px;cursor:pointer;}
+.content_box .arrow_r{position:absolute;top:29.9%;right:-60px;cursor:pointer;}
+.content_box a{display:block;color:#9F9F9F;}
+.content_box table{max-width:1150px;margin-bottom:100px;}
+.content_box td{border:1px solid #E8E8E8;}
+.content_box td img{width:229px;}
+.content_box .coo_list{margin:45px auto;width:150px;height:40px;border:1px solid #9F9F9F;line-height:40px;text-align:center;}
+.coo_list:hover{color:#ff5800;border:1px solid #ff5800;}
+.coo_list:hover a{color:#ff5800;}
+.content_box .p1,.p2,.p3,.p4{font-size:30px;position:absolute;top:-55px;background:#FFFFFF;padding:0px 15px;}
+.content_box .p1{left:50%;margin-left:-120px;}
+.content_box .p2{left:50%;margin-left:-130px;}
+.content_box .p3{left:50%;margin-left:-180px;}
+.content_box .p4{left:50%;margin-left:-77px;}
+
+.content_box .side_left{width:30%;height:425px;border-left:1px solid #C9C9C9;border-right:1px solid #C9C9C9;float:left;position:relative;margin-top:100px;}
+.content_box .side_right{float:right;margin-top:100px;}
+.content_box .side_left div{margin:20px 0px 70px;padding-left:130px;padding-right:30px;}
+.content_box .side_left img{position:absolute;left:20px;}
+.content_box .side_left p{font-size:12px;color:#9F9F9F;}
+.content_box .side_left h3{color:#424242;}
+.content_box .p5{color:#424242;font-size:18px;margin:40px auto -5px;width:380px;}
+.content_box ul{padding:0px;}
+.content_box li{list-style:none;float:left;height:125px;border-right:1px solid #C9C9C9}
+.content_box li img{width:228px}
+.content_box2{max-width:1920px;}
+.content_box2_bg{width:100%;background:url(images/coo_company/bg.jpg) no-repeat center center;height:500px;padding-top:20px}
+.content_box2_bg h2{margin:0 auto 60px 495px;;color:#424242;display:block;}
+.c_b2_box{width:1170px;margin:55px auto;}
+.c_b2_box .list{width:360px;height:245px;margin-right:5px;margin-left:10px;background:white;float:left;padding:0 5px;}
+.c_b2_box .list img{border:1px solid #eee;margin-top:20px;margin-left:15px;float:left;}
+.c_b2_box  .list_1{float:left;margin-left:25px;color:#424242;}
+.c_b2_box  .list_2{border-top:1px solid #eee;padding:10px 20px;margin-top:10px;}
+.c_b2_box  .list_2 p{font-size:14px;color:#999}
+.content_box3{width:1110px;margin:50px auto;padding:0 20px;}
+.content_box3 .list_1{width:200px;color:#424242;}
+.content_box3 .list_1 a{color:#ff5800;text-decoration:none;font-size:16px;}
+.content_box3 ul{padding:0px;float:left}
+.content_box3 li{list-style:none;}
+.content_box3 li a{line-height:40px;text-decoration:none;color:#424242}
+.content_box3 li a:hover{color:#ff5800}
+.content_box3 .box_1{float:right;}
+.content_box3 .box_1 img{margin-bottom:9px;}
+.content_box3 .box_2{float:right;margin-right:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
