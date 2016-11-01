@@ -105,6 +105,7 @@ setInterval(sca_7,3300)
 function sca_8(){
 	$(".circle_8").addClass("scale_8").show()
 	}
+setInterval(sca_8,4300)
 	});
 
 
