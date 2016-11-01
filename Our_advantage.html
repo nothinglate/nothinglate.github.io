@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="advantage_body.css">
 <link rel="stylesheet" type="text/css" href="tuya_footer.css">
 <script src="jquery.js"></script>
+<script src="advantage.js"></script>
 </head>
 <body>
 <div class="nav_bg">
@@ -266,66 +267,6 @@
         </div>
     </div>
 </div>
-
-<script>
-	var n,x,i=0
-	$(document).scroll(function(){
-		n=$(document).scrollTop()
-		if(n>150)
-		{
-			$(".nav_children").slideUp(300)
-			}
-		else
-		{	$(".nav_children").slideDown(300)
-			}
-		})
-		
-$(".image_box:gt(0)").hide()
-	$(".content li").mouseenter(function(){
-		$(".content li").removeClass("current")
-		x=$(this).addClass("current").index()
-		if(x==i)
-		{
-			$(".image_box").eq(x).show()
-			}
-		else if(x>i){	
-		$(".image_box").fadeOut(700)
-		$(".image_box").eq(x).fadeIn(700)
-		i=x
-		}
-		else{ 
-		$(".image_box").stop(false,true).fadeOut(700)
-		$(".image_box").eq(x).stop(false,true).fadeIn(700)
-		
-		i=x	
-			}
-	})
-		
-		
-$(".list1_opa").hide();
-$(".list1").mouseenter(function(){
-	$(this).children(".list1_opa").fadeIn(300).mouseleave(function(){
-		$(".list1_opa").fadeOut(300)
-		})
-	  
-	})
-	
- $(".list3 img:gt(1):odd").hide()
- $(".list3 img:first").hide()
- $(".list3").mouseenter(function(){
- $(".list3 img:odd").hide()
- $(".list3 img:even").show()
-	$(this).children().eq(0).hide()
-	$(this).children().eq(1).show()
-	 })
-	 
-$(".eng").hide();
-	$(".language").mouseenter(function(){
-		$(".eng").show();$(this).mouseleave(function(){
-		$(".eng").hide()	
-		
-			})})
-</script>
 </body>
 </html>
 
