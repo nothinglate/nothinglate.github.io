@@ -39,6 +39,7 @@ a:hover{color:#ff5800;}
 .content_box .p4{left:50%;margin-left:-140px;}
 .content_box .pah1{margin:40px auto 15px;display:block;font-size:14px;text-align:center;}
 .content_box a{text-decoration:none;color:#ff5800;display:block;width:80px;margin:0 auto;text-align:center;}
+.content_box .pic1{position:relative}
 .content_box .pic1 img{margin:30px auto 100px;}
 .content_box .pah2{margin-top:40px;display:block;font-size:14px;text-align:center;}
 .content_box .pah3{margin:10px auto 80px;;display:block;font-size:14px;text-align:center;}
@@ -63,7 +64,7 @@ a:hover{color:#ff5800;}
 .content_box .mid{padding:20px 40px;height:290px;}
 .content_box .mid h5{font-size:18px;line-height:10px;color:#454545;}
 .content_box .mid p{font-size:14px;color:#9f9f9f;line-height:25px;margin-top:40px;}
-.content_box .circle{width:1100px;height:35px;position:absolute;left:24px;top:200px;overflow:hidden;z-index:-1;}
+.content_box .cir{width:1100px;height:35px;position:absolute;left:24px;top:200px;overflow:hidden;z-index:-1;}
 .content_box .circle_arc{border:2px dashed #999;width:1150px;height:70px;position:absolute;border-radius:50%;z-index:-1;top:2px}
 .content_box .ul_3{margin-top:80px;}
 .content_box .list3{float:left;list-style:none;width:285px;}
@@ -74,7 +75,42 @@ a:hover{color:#ff5800;}
 .content_box .step_box p{font-family:"黑体";color:666}
 .content_box .step_box div{float:left;width:230px;padding-right:70px;}
 .content_box .developer{width:230px;height:45px;border-radius:3px;background:#4a90e2;position:absolute;top:42%;right:80px;line-height:45px;text-align:center;color:white;}
-
+.circle{width:200px;height:200px;border:2px solid #4a90e2;border-radius:50%;position:absolute;top:132px;left:770px;}
+.circle_1{width:200px;height:200px;border:2px solid #4a90e2;border-radius:50%;position:absolute;top:132px;left:770px;}
+.circle_2{width:200px;height:200px;border:2px solid #4a90e2;border-radius:50%;position:absolute;top:132px;left:770px;}
+.circle_3{width:200px;height:200px;border:2px solid #f6a623;border-radius:50%;position:absolute;top:62px;left:508px;}
+.circle_4{width:200px;height:200px;border:2px solid #f6a623;border-radius:50%;position:absolute;top:62px;left:508px;}
+.circle_5{width:200px;height:200px;border:2px solid #f6a623;border-radius:50%;position:absolute;top:62px;left:508px;}
+.circle_6{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
+.circle_7{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
+.circle_8{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
+@keyframes sca{
+	0%{transform:scale(0.1);opacity:1}
+	60%{ opacity:0.5}
+	90%{ opacity:0}
+	100%{opacity:0;transform:scale(1)}
+	}
+@keyframes sca_1{
+	0%{transform:scale(0.1);opacity:1}
+	60%{ opacity:0.5}
+	90%{ opacity:0}
+	100%{ opacity:0;transform:scale(1)}
+	}
+@keyframes sca_2{
+	0%{transform:scale(0.1);opacity:1}
+	60%{ opacity:0.5}
+	90%{ opacity:0}
+	100%{ opacity:0;transform:scale(1)}
+	}
+.scale{animation:sca 4s ease-out infinite }
+.scale_1{animation:sca_1 4s  ease-out infinite }
+.scale_2{animation:sca_2 4s ease-out infinite }
+.scale_3{animation:sca 4s ease-out infinite }
+.scale_4{animation:sca_1 4s  ease-out infinite }
+.scale_5{animation:sca_2 4s ease-out infinite }
+.scale_6{animation:sca 4s ease-out infinite }
+.scale_7{animation:sca_1 4s  ease-out infinite }
+.scale_8{animation:sca_2 4s ease-out infinite }
 
 
 
