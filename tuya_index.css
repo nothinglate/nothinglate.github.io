@@ -34,7 +34,7 @@ img{display:block}
 .content_box .p4{left:50%;margin-left:-77px;}
 
 .content_box .side_left{width:30%;height:425px;border-left:1px solid #C9C9C9;border-right:1px solid #C9C9C9;float:left;position:relative;margin-top:100px;}
-.content_box .side_right{float:right;margin-top:100px;}
+.content_box .side_right{float:right;margin-top:100px;position:relative;}
 .content_box .side_left div{margin:20px 0px 70px;padding-left:130px;padding-right:30px;}
 .content_box .side_left img{position:absolute;left:20px;}
 .content_box .side_left p{font-size:12px;color:#9F9F9F;}
@@ -62,6 +62,43 @@ img{display:block}
 .content_box3 .box_1{float:right;}
 .content_box3 .box_1 img{margin-bottom:9px;}
 .content_box3 .box_2{float:right;margin-right:10px;}
+.circle{width:200px;height:200px;border:2px solid #4a90e2;border-radius:50%;position:absolute;top:81px;left:519px;}
+.circle_1{width:200px;height:200px;border:2px solid #4a90e2;border-radius:50%;position:absolute;top:81px;left:519px;}
+.circle_2{width:200px;height:200px;border:2px solid #4a90e2;border-radius:50%;position:absolute;top:81px;left:519px;}
+.circle_3{width:200px;height:200px;border:2px solid #f6a623;border-radius:50%;position:absolute;top:28px;left:315px;}
+.circle_4{width:200px;height:200px;border:2px solid #f6a623;border-radius:50%;position:absolute;top:28px;left:315px;}
+.circle_5{width:200px;height:200px;border:2px solid #f6a623;border-radius:50%;position:absolute;top:28px;left:315px;}
+.circle_6{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:36px;left:8px;}
+.circle_7{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:36px;left:8px;}
+.circle_8{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:36px;left:8px;}
+@keyframes sca{
+	0%{transform:scale(0.1);opacity:1}
+	60%{ opacity:0.5}
+	90%{ opacity:0}
+	100%{opacity:0;transform:scale(1)}
+	}
+@keyframes sca_1{
+	0%{transform:scale(0.1);opacity:1}
+	60%{ opacity:0.5}
+	90%{ opacity:0}
+	100%{ opacity:0;transform:scale(1)}
+	}
+@keyframes sca_2{
+	0%{transform:scale(0.1);opacity:1}
+	60%{ opacity:0.5}
+	90%{ opacity:0}
+	100%{ opacity:0;transform:scale(1)}
+	}
+.scale{animation:sca 4s ease-out infinite }
+.scale_1{animation:sca_1 4s  ease-out infinite }
+.scale_2{animation:sca_2 4s ease-out infinite }
+.scale_3{animation:sca 4s ease-out infinite }
+.scale_4{animation:sca_1 4s  ease-out infinite }
+.scale_5{animation:sca_2 4s ease-out infinite }
+.scale_6{animation:sca 4s ease-out infinite }
+.scale_7{animation:sca_1 4s  ease-out infinite }
+.scale_8{animation:sca_2 4s ease-out infinite }
+
 
 
 
