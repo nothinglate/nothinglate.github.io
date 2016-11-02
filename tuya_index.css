@@ -75,19 +75,19 @@ img{display:block}
 	0%{transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{opacity:0;transform:scale(1)}
+	100%{opacity:0;transform:scale(0.9)}
 	}
 @keyframes sca_1{
 	0%{transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{ opacity:0;transform:scale(1)}
+	100%{ opacity:0;transform:scale(0.9)}
 	}
 @keyframes sca_2{
 	0%{transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{ opacity:0;transform:scale(1)}
+	100%{ opacity:0;transform:scale(0.9)}
 	}
 .scale{animation:sca 4s ease-out infinite }
 .scale_1{animation:sca_1 4s  ease-out infinite }
