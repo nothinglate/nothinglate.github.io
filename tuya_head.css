@@ -5,7 +5,7 @@ ul{padding:0px;}
 img{display:block}
 body{margin:0px;padding:0px;background:white;}
 .clearfix{clear:both}
-.nav_bg{background:white;position:fixed;z-index:1;width:100%;top:0px;}
+.nav_bg{background:white;position:fixed;z-index:3;width:100%;top:0px;}
 .nav{max-width:1150px;margin:0 auto;}
 .nav .logo{float:left;height:39px;padding:11px 10px;}
 .nav ul{margin:0px 0px 0px 220px;}
