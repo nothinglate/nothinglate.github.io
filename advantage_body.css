@@ -85,22 +85,22 @@ a:hover{color:#ff5800;}
 .circle_7{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
 .circle_8{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
 @keyframes sca{
-	0%{transform:scale(0.1);opacity:1}
+	0%{transform:scale(0.1);-webkit-transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{opacity:0;transform:scale(0.9)}
+	100%{opacity:0;transform:scale(0.9);-webkit-transform:scale(0.9);}
 	}
 @keyframes sca_1{
-	0%{transform:scale(0.1);opacity:1}
+	0%{transform:scale(0.1);-webkit-transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{ opacity:0;transform:scale(0.9)}
+	100%{ opacity:0;transform:scale(0.9);-webkit-transform:scale(0.9);}
 	}
 @keyframes sca_2{
-	0%{transform:scale(0.1);opacity:1}
+	0%{transform:scale(0.1);-webkit-transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{ opacity:0;transform:scale(0.9)}
+	100%{ opacity:0;transform:scale(0.9);-webkit-transform:scale(0.9);}
 	}
 .scale{animation:sca 4s ease-out infinite }
 .scale_1{animation:sca_1 4s  ease-out infinite }
