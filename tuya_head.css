@@ -13,4 +13,3 @@ body{margin:0px;padding:0px;background:white;}
 .nav a{text-decoration:none;color:black;}
 .nav a:hover{color:#ff5800;}
 .nav .sign_up{width:100px;height:32px;background:#ff5800;color:white;line-height:32px;text-align:center;float:right;margin-top:17px;}
-@media(max-width:1150px){.nav .sign_up{display:none;}.nav ul{margin-right:0px;}}
