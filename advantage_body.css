@@ -5,7 +5,7 @@
 .nav_children ul li{list-style:none;padding:0 25px;float:left;}
 .nav_children a{text-decoration:none;color:#EDEDED;text-align:center;line-height:60px;font-size:14px;}
 a:hover{color:#ff5800;}
-.banner{max-width:1920px;margin-top:65px;}
+.banner{max-width:1920px;margin-top:63px;}
 .banner .banner_bg{height:350px;width:100%;background:url(images/advantage/banner.jpg) no-repeat center center;}
 .content{width:1150px;margin:80px auto 100px;overflow:hidden;}
 .content ul{ width:810px;margin:0px auto;}
