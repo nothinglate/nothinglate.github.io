@@ -2,7 +2,7 @@
 /* CSS Document */
 img{display:block}
 .banner{position:relative;width:100%;height:500px;margin-top:65px;}
-.banner div{width:100%;position:absolute;margin:0 auto}
+.banner div{width:100%;position:absolute;margin:0 auto;border:1px solid red}
 .banner .images1{background:url(images/banner/1.png) no-repeat center center;height:500px;}
 .banner .images2{background:url(images/banner/2.jpg) no-repeat center center;height:500px;}
 .banner .images3{background:url(images/banner/3.jpg) no-repeat center center;height:500px;}
