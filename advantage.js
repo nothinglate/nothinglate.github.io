@@ -106,11 +106,7 @@ function sca_8(){
 	$(".circle_8").addClass("scale_8").show()
 	}
 setTimeout(sca_8,3800)
-<<<<<<< HEAD
 	}
-=======
-	})
->>>>>>> origin/master
 
 
 
