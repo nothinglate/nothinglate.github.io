@@ -5,7 +5,7 @@
 .nav_children ul li{list-style:none;padding:0 25px;float:left;}
 .nav_children a{text-decoration:none;color:#EDEDED;text-align:center;line-height:60px;font-size:14px;}
 a:hover{color:#ff5800;}
-.banner{max-width:1920px;margin-top:65px;}
+.banner{max-width:1920px;margin-top:63px;}
 .banner .banner_bg{height:350px;width:100%;background:url(images/advantage/banner.jpg) no-repeat center center;}
 .content{width:1150px;margin:80px auto 100px;overflow:hidden;}
 .content ul{ width:810px;margin:0px auto;}
@@ -85,22 +85,22 @@ a:hover{color:#ff5800;}
 .circle_7{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
 .circle_8{width:200px;height:200px;border:2px solid #5fb336;border-radius:50%;position:absolute;top:73px;left:112px;}
 @keyframes sca{
-	0%{transform:scale(0.1);opacity:1}
+	0%{transform:scale(0.1);-webkit-transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{opacity:0;transform:scale(0.9)}
+	100%{opacity:0;transform:scale(0.9);-webkit-transform:scale(0.9);}
 	}
 @keyframes sca_1{
-	0%{transform:scale(0.1);opacity:1}
+	0%{transform:scale(0.1);-webkit-transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{ opacity:0;transform:scale(0.9)}
+	100%{ opacity:0;transform:scale(0.9);-webkit-transform:scale(0.9);}
 	}
 @keyframes sca_2{
-	0%{transform:scale(0.1);opacity:1}
+	0%{transform:scale(0.1);-webkit-transform:scale(0.1);opacity:1}
 	60%{ opacity:0.5}
 	90%{ opacity:0}
-	100%{ opacity:0;transform:scale(0.9)}
+	100%{ opacity:0;transform:scale(0.9);-webkit-transform:scale(0.9);}
 	}
 .scale{animation:sca 4s ease-out infinite }
 .scale_1{animation:sca_1 4s  ease-out infinite }

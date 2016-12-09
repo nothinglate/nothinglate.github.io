@@ -11,163 +11,209 @@ $(document).scroll(function(){
 	else{
 		$(".side_bar").removeClass("effect")
 		}
-	if(n>0 && n<720)
+	if(n>=0 && n<757)
 	{	
+		$(".in_list1,.in_list2,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".title").addClass("bgcolor")
+		$(".hardware,.kitchen,.health,.personal_care,.custom").hide()	
+		$(".life").show()	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(1).addClass("current")
 		}
-	if(n>=720 && n<1177)
+	if(n>=757 && n<1214)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(2).addClass("current")
 		}
-	if(n>=1177 && n<1634)
+	if(n>=1214 && n<1671)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(3).addClass("current")
 		}	
-	if(n>=1634 && n<2091)
+	if(n>=1671 && n<2128)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(4).addClass("current")
 		}
-	if(n>=2091 && n<2548)
+	if(n>=2128 && n<2585)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(5).addClass("current")
 		}
-	if(n>2548 && n<3005)
+	if(n>2585 && n<3042)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(6).addClass("current")
 		}										
-	if(n>=3005 && n<3462)
+	if(n>=3042 && n<3499)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(7).addClass("current")
 		}						
-	if(n>=3462 && n<3919)
+	if(n>=3499 && n<3956)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(8).addClass("current")
 		}
-	if(n>=3919 && n<4376)
+	if(n>=3956 && n<4413)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(9).addClass("current")
 		}
-	if(n>=4376 && n<4833)
+	if(n>=4413 && n<4870)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(10).addClass("current")
 		}
-	if(n>=4833 && n<5290)
+	if(n>=4870 && n<5327)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(11).addClass("current")
 		}
-	if(n>=5290 && n<5747)
+	if(n>=5327 && n<5784)
 	{	
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(12).addClass("current")
 		}
-	if(n>=5747 && n<6204)
+	if(n>=5784 && n<6241)
 	{	
+		$(".in_list1,.in_list2,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".title").addClass("bgcolor")
+		$(".hardware,.kitchen,.health,.personal_care,.custom").hide()	
+		$(".life").show()
 		$(".list1 li").removeClass("current")
 		$(".list1 li").eq(13).addClass("current")
 		}
-	if(n>=6204 && n<6661)
+		
+	if(n>=6241 && n<6698)
 	{	
+		$(".title,.in_list2,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".in_list1").addClass("bgcolor")
+		$(".life,.kitchen,.health,.personal_care,.custom").hide()	
+		$(".hardware").show()
+		}
 		$(".hardware").removeClass("current")
 		$(".hardware").eq(0).addClass("current")
-		}	
-	if(n>=6661 && n<7118)
+	
+	if(n>=6698 && n<7155)
 	{	
 		$(".hardware").removeClass("current")
 		$(".hardware").eq(1).addClass("current")
 		}
-	if(n>=7118 && n<7575)
+	if(n>=7155 && n<7612)
 	{	
 		$(".hardware").removeClass("current")
 		$(".hardware").eq(2).addClass("current")
 		}
-	if(n>=7575 && n<8032)
+	if(n>=7612 && n<8069)
 	{	
 		$(".hardware").removeClass("current")
 		$(".hardware").eq(3).addClass("current")
 		}
-	if(n>=8032 && n<8489)
+	if(n>=8069 && n<8526)
 	{	
+		$(".title,.in_list2,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".in_list1").addClass("bgcolor")
+		$(".life,.kitchen,.health,.personal_care,.custom").hide()	
+		$(".hardware").show()
 		$(".hardware").removeClass("current")
 		$(".hardware").eq(4).addClass("current")
 		}
-	if(n>=8489 && n<8946)
+	if(n>=8526 && n<8983)
 	{	
+		$(".title,.in_list1,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".in_list2").addClass("bgcolor")
+		$(".life,.hardware,.health,.personal_care,.custom").hide()	
+		$(".kitchen").show()
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(0).addClass("current")
 		}
-	if(n>=8946 && n<9403)
+	if(n>=8983 && n<9440)
 	{	
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(1).addClass("current")
 		}
-	if(n>=9403 && n<9860)
+	if(n>=9440 && n<9897)
 	{	
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(2).addClass("current")
 		}
-	if(n>=9860 && n<10317)
+	if(n>=9897 && n<10354)
 	{	
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(3).addClass("current")
 		}
-	if(n>=10317 && n<10774)
+	if(n>=10354 && n<10811)
 	{	
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(4).addClass("current")
 		}
-	if(n>=10774 && n<11231)
+	if(n>=10811 && n<11268)
 	{	
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(5).addClass("current")
 		}
-	if(n>=11231 && n<11688)
+	if(n>=11268 && n<11725)
 	{	
+		$(".title,.in_list1,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".in_list2").addClass("bgcolor")
+		$(".life,.hardware,.health,.personal_care,.custom").hide()	
+		$(".kitchen").show()			
 		$(".kitchen").removeClass("current")
 		$(".kitchen").eq(6).addClass("current")
 		}	
-	if(n>=11688 && n<12145)
+	if(n>=11725 && n<12182)
 	{	
+		$(".title,.in_list1,.in_list2,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".in_list3").addClass("bgcolor")
+		$(".life,.hardware,.kitchen,.personal_care,.custom").hide()	
+		$(".health").show()	
 		$(".health").removeClass("current")
 		$(".health").eq(0).addClass("current")
 		}
-	if(n>=12145 && n<12602)
+	if(n>=12182 && n<12639)
 	{	
 		$(".health").removeClass("current")
 		$(".health").eq(1).addClass("current")
 		}
-	if(n>=12602 && n<13059)
+	if(n>=12639 && n<13096)
 	{	
+		$(".title,.in_list1,.in_list2,.in_list4,.in_list5").removeClass("bgcolor")
+		$(".in_list3").addClass("bgcolor")
+		$(".life,.hardware,.kitchen,.personal_care,.custom").hide()	
+		$(".health").show()	
 		$(".health").removeClass("current")
 		$(".health").eq(2).addClass("current")
 		}	
-	if(n>=13059 && n<13516)
+	if(n>=13096 && n<13553)
 	{	
+		$(".title,.in_list1,.in_list3,.in_list2,.in_list5").removeClass("bgcolor")
+		$(".in_list4").addClass("bgcolor")
+		$(".life,.hardware,.health,.kitchen,.custom").hide()	
+		$(".personal_care").show()	
 		$(".personal_care").removeClass("current")
 		$(".personal_care").eq(0).addClass("current")
 		}
-	if(n>=13516 && n<13973)
+	if(n>=13553 && n<14010)
 	{	
 		$(".personal_care").removeClass("current")
 		$(".personal_care").eq(1).addClass("current")
 		}
-	if(n>=13973 && n<14430)
+	if(n>=14010 && n<14467)
 	{	
+		$(".title,.in_list1,.in_list3,.in_list2,.in_list5").removeClass("bgcolor")
+		$(".in_list4").addClass("bgcolor")
+		$(".life,.hardware,.health,.kitchen,.custom").hide()	
+		$(".personal_care").show()		
 		$(".personal_care").removeClass("current")
 		$(".personal_care").eq(2).addClass("current")
 		}
-	if(n>=14430 && n<14887)
+	if(n>=14467 && n<14924)
 	{	
+		$(".title,.in_list1,.in_list3,.in_list2,.in_list4").removeClass("bgcolor")
+		$(".in_list5").addClass("bgcolor")
+		$(".life,.hardware,.health,.kitchen,.personal_care").hide()	
+		$(".custom").show()		
 		$(".custom").removeClass("current")
 		$(".custom").eq(0).addClass("current")
 		}		
@@ -175,14 +221,7 @@ $(document).scroll(function(){
 	})
 	
 $(".hardware,.kitchen,.health,.personal_care,.custom").hide()
-$(".list1 .title").click(function(){
-	$("body").animate({scrollTop:300}, 300);
-		$(".life").show()
-		$(".hardware,.kitchen,.health,.personal_care,.custom").hide()
-		$(".in_list1,.in_list2,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
-		$(this).addClass("bgcolor")
-		
-	})
+
 $(".life").click(function(){
 	x=$(this).index()
 	x-=1
@@ -209,42 +248,23 @@ $(".personal_care").click(function(){
 	$("body").animate({scrollTop:300+457*x}, 300);
 	})
 						
-	
+$(".list1 .title").click(function(){
+	$("body").animate({scrollTop:300}, 300);		
+	})	
 $(".list1 .in_list1").click(function(){
-	$(".title,.in_list2,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
-	$(".in_list1").addClass("bgcolor")
-	$("body").animate({scrollTop:6240}, 300);
-		$(".hardware").show()
-		$(".life,.kitchen,.health,.personal_care,.custom").hide()
-		
+	$("body").animate({scrollTop:6241}, 300);	
 	})
-$(".list1 .in_list2").click(function(){
-	$(".title,.in_list1,.in_list3,.in_list4,.in_list5").removeClass("bgcolor")
-	$(".in_list2").addClass("bgcolor")	
-	$("body").animate({scrollTop:8525}, 300);
-		$(".hardware,.life,.health,.personal_care,.custom").hide()
-		$(".kitchen").show()
+$(".list1 .in_list2").click(function(){	
+	$("body").animate({scrollTop:8526}, 300);	
 	})
 $(".list1 .in_list3").click(function(){
-	$(".title,.in_list2,.in_list1,.in_list4,.in_list5").removeClass("bgcolor")
-	$(".in_list3").addClass("bgcolor")	
-	$("body").animate({scrollTop:11725}, 300);
-		$(".hardware,.kitchen,.life,.personal_care,.custom").hide()
-		$(".health").show()
+	$("body").animate({scrollTop:11726}, 300);
 	})
 $(".list1 .in_list4").click(function(){
-	$(".title,.in_list2,.in_list3,.in_list1,.in_list5").removeClass("bgcolor")
-	$(".in_list4").addClass("bgcolor")	
-	$("body").animate({scrollTop:13096}, 300);
-		$(".hardware,.kitchen,.health,.life,.custom").hide()
-		$(".personal_care").show()
+	$("body").animate({scrollTop:13097}, 300);
 	})				
 $(".list1 .in_list5").click(function(){
-	$(".title,.in_list2,.in_list3,.in_list4,.in_list1").removeClass("bgcolor")
-	$(".in_list5").addClass("bgcolor")	
-	$("body").animate({scrollTop:14467}, 300);
-		$(".hardware,.kitchen,.health,.personal_care,.life").hide()
-		$(".custom").show()
+	$("body").animate({scrollTop:14468}, 300);
 	})
 	
 	
