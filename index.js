@@ -1,5 +1,5 @@
 // JavaScript Document
-$(document).ready(function(){
+window.onload=function(){
 	var x=0,i=0
 	$(".banner div:gt(0)").hide();
 	setInterval(time,4000);
@@ -22,7 +22,7 @@ function time(){
 		$(".banner div").eq(x).show()
 		}
 		else{
-		$(".banner div").fadeOut(700).eq(x).fadeIn(700);
+		$(".banner div").stop(false,true).fadeOut(700).eq(x).fadeIn(700)
 		i=x;
 		}
 	})
@@ -86,39 +86,39 @@ $(".circle_8").hide()
 function sca(){
 	$(".circle").addClass("scale").show()
 	}
-setInterval(sca,10)
+setTimeout(sca,10)
 function sca_1(){
 	$(".circle_1").addClass("scale_1").show()
 	}
-setInterval(sca_1,800)
+setTimeout(sca_1,800)
 function sca_2(){
 	$(".circle_2").addClass("scale_2").show()
 	}
-setInterval(sca_2,1500)
+setTimeout(sca_2,1500)
 
 function sca_3(){
 	$(".circle_3").addClass("scale_3").show()
 	}
-setInterval(sca_3,1000)
+setTimeout(sca_3,1000)
 function sca_4(){
 	$(".circle_4").addClass("scale_4").show()
 	}
-setInterval(sca_4,1800)
+setTimeout(sca_4,1800)
 function sca_5(){
 	$(".circle_5").addClass("scale_5").show()
 	}
-setInterval(sca_5,2500)
+setTimeout(sca_5,2500)
 
 function sca_6(){
 	$(".circle_6").addClass("scale_6").show()
 	}
-setInterval(sca_6,2300)
+setTimeout(sca_6,2300)
 function sca_7(){
 	$(".circle_7").addClass("scale_7").show()
 	}
-setInterval(sca_7,3100)
+setTimeout(sca_7,3100)
 function sca_8(){
 	$(".circle_8").addClass("scale_8").show()
 	}
-setInterval(sca_8,3800)
-})
+setTimeout(sca_8,3800)
+}
