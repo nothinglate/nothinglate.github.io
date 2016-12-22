@@ -5,7 +5,7 @@
 .nav_children ul li{list-style:none;padding:0 25px;float:left;}
 .nav_children a{text-decoration:none;color:#EDEDED;text-align:center;line-height:60px;font-size:14px;}
 a:hover{color:#ff5800;}
-.banner_bg{height:350px;width:100%;background:url(images/solution/banner.png) no-repeat center center;margin-top:65px;padding-top:1px;}
+.banner_bg{height:350px;width:100%;background:url(images/solution/banner.png) no-repeat center center;margin-top:60px;padding-top:1px;}
 .banner_bg h1{text-align:center;margin-top:100px;color:white;font-family:"黑体";font-weight:normal;font-size:45px;margin-top:110px;}
 .banner_bg p{text-align:center;margin-top:20px;color:white;font-family:"黑体";line-height:5px;}
 .content_box {width:1150px;margin:0 auto;border-top:1px solid #BBBBBB;position:relative;margin-top:90px;}
@@ -29,8 +29,8 @@ a:hover{color:#ff5800;}
 .list1 p{font-family:"黑体";color:#3D3D3D;font-size:18px;}
 .list1 img{width:750px;margin-top:130px}
 .list2{float:left;width:355px;padding:40px 20px 0px;position:relative;}
-.list2 .list2_box{position:relative;z-index:2}
-.bgcolor{background:#f1f1f1;position:absolute;width:1000px;height:720px;top:0px;left:0px;z-index:1}
+.list2 .list2_box{position:relative;z-index:2;}
+.bgcolor{background:#f1f1f1;position:absolute;width:776px;height:720px;top:0px;left:0px;z-index:1;}
 .list3{font-family:"黑体";color:#292929;font-weight:normal;font-size:25px;border-bottom:1px solid #ddd;padding:0px 215px 20px 15px;font-weight:bold;}
 .list4{width:395px;}
 .list4 ol{margin:0px;padding:20px 18px 30px;list-style:disc;}
